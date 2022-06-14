@@ -1,0 +1,25 @@
+{
+  "name": "interactivestandard-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание по верстке",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "author": "Val Litvinenko",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.4.7",
+    "browser-sync": "2.27.10",
+    "cssnano": "5.1.11",
+    "del": "6.1.1",
+    "gulp": "4.0.2",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-less": "5.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "less": "4.1.3",
+    "postcss": "8.4.14"
+  }
+}

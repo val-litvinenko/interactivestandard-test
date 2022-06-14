@@ -1,0 +1,50 @@
+.answers {
+    width: 320px;
+    display: none;
+
+    &--active {
+      display: block;
+    }
+
+    @media (min-width: 600px) {
+      width: 400px;
+      flex-direction: row;
+      padding: 0 15px;
+    }
+
+    @media (min-width: 700px) {
+      width: 450px;
+    }
+
+    @media (min-width: 800px) {
+      width: 500px;
+    }
+}
+
+.answers__container {
+  padding: 0;
+
+  @media (min-width: 600px) {
+     padding-left: 50px;
+  }
+
+  @media (min-width: 800px) {
+    padding-left: 100px;
+ }
+}
+
+.answers__list {
+  padding: 0 10px;
+  margin: 0;
+
+}
+
+.answers__item {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.answers__item-title {
+  display: block;
+  font-weight: 700;
+}
